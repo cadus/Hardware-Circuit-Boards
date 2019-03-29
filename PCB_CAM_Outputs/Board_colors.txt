@@ -1,0 +1,6 @@
+green	Brain, Spannungsversorgung
+red	ECG
+yellow	Blutdruck
+blue	Pulsoxy
+white	PTT
+
