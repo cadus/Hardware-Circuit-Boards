@@ -1,0 +1,28 @@
+Partlist
+
+Exported from Brain.brd at 3/5/2019 5:41 PM
+
+EAGLE Version 9.3.1 Copyright (c) 1988-2019 Autodesk, Inc.
+
+Assembly variant: 
+
+Part          Value                         Package                    Library                                        Position (mil)        Orientation
+
+C7            47µF                          E2,5-6E                    rcl                                            (700 1150)            R270
+MCP-3008      MCU-MCP3008-I/P(DIP16-7.62MM) DIP16-2.54-19.2X7.62MM     MCU-MCP3008-I_P_DIP16-7.62MM_                  (1300 1100)           R0
+R1            4.7k                          0207/7                     resistor                                       (1100 1600)           R270
+RASPBERRY-CON 40-PIN-HEADER                 SAMTEC_TSW-120-09-F-Q      PINheader40                                    (650 3350)            R90
+X1            Temp                          JST-XH-03-PACKAGE-LONG-PAD Rembrandt Electronics - JST XH Connectors v1-0 (100 3200)            R270
+X2            ECG I                         JST-XH-02-PACKAGE-LONG-PAD Rembrandt Electronics - JST XH Connectors v1-0 (100 2700)            R270
+X3            ECG II                        JST-XH-02-PACKAGE-LONG-PAD Rembrandt Electronics - JST XH Connectors v1-0 (100 2300)            R270
+X4            ECG III                       JST-XH-02-PACKAGE-LONG-PAD Rembrandt Electronics - JST XH Connectors v1-0 (100 1900)            R270
+X5            Pulse                         JST-XH-02-PACKAGE-LONG-PAD Rembrandt Electronics - JST XH Connectors v1-0 (100 1500)            R270
+X6            res 1                         JST-XH-02-PACKAGE-LONG-PAD Rembrandt Electronics - JST XH Connectors v1-0 (1250 3250)           R90
+X7            res 2                         JST-XH-02-PACKAGE-LONG-PAD Rembrandt Electronics - JST XH Connectors v1-0 (1750 2850)           R90
+X8            res 3                         JST-XH-02-PACKAGE-LONG-PAD Rembrandt Electronics - JST XH Connectors v1-0 (1250 2850)           R90
+X9            res 4                         JST-XH-02-PACKAGE-LONG-PAD Rembrandt Electronics - JST XH Connectors v1-0 (1750 2450)           R90
+X10           res 5                         JST-XH-02-PACKAGE-LONG-PAD Rembrandt Electronics - JST XH Connectors v1-0 (1250 2450)           R90
+X11           res 6                         JST-XH-02-PACKAGE-LONG-PAD Rembrandt Electronics - JST XH Connectors v1-0 (1750 2050)           R90
+X12           res 7                         JST-XH-02-PACKAGE-LONG-PAD Rembrandt Electronics - JST XH Connectors v1-0 (1250 2050)           R90
+X13           res 8                         JST-XH-02-PACKAGE-LONG-PAD Rembrandt Electronics - JST XH Connectors v1-0 (1750 1650)           R90
+XA2           3.3V                          JST_B2P-VH(LF)(SN)         B2P-VH_LF__SN_                                 (1750 3300)           R90

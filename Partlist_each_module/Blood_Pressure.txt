@@ -1,0 +1,63 @@
+Partlist
+
+Exported from Blutdruck.sch at 01.03.2019 15:22
+
+EAGLE Version 9.3.1 Copyright (c) 1988-2019 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value          Device                 Package                    Library                                        Sheet
+
+C1       22pF           C-EU025-024X044        C025-024X044               rcl                                            1
+C2       22pF           C-EU025-024X044        C025-024X044               rcl                                            1
+C4       100nF          C-EU025-024X044        C025-024X044               rcl                                            1
+C5       47µF           CPOL-EUE2,5-6E         E2,5-6E                    rcl                                            1
+C6       47µF           CPOL-EUE2,5-6E         E2,5-6E                    rcl                                            1
+C7       47µF           CPOL-EUE2,5-6E         E2,5-6E                    rcl                                            1
+C8       10nF           C-EU025-024X044        C025-024X044               rcl                                            1
+C9       680nF          C-EU150-064X183        C150-064X183               rcl                                            1
+C10      220nF          C-EU025-024X044        C025-024X044               rcl                                            1
+C11      330nF          C-EU050-030X075        C050-030X075               rcl                                            1
+C12      220nF          C-EU025-024X044        C025-024X044               rcl                                            1
+C13      1µF            C-EU150-072X183        C150-072X183               rcl                                            1
+C14      100nF          C-EU025-024X044        C025-024X044               rcl                                            1
+D1       1N4004         1N4004                 DO41-10                    diode                                          1
+D2       1N5819         SCHOTTKY-DIODEF126Z12  F126Z12                    diode                                          1
+D3       1N5819         SCHOTTKY-DIODEF126Z12  F126Z12                    diode                                          1
+D4       1N4942         1N4942                 DO41-10                    diode                                          1
+D5       1N4942         1N4942                 DO41-10                    diode                                          1
+D6       1N4942         1N4942                 DO41-10                    diode                                          1
+IC1      ATMEGA328-P    ATMEGA168-20P          DIL28-3                    adafruit                                       1
+JP1      ICSP           PINHD-2X3              2X03                       pinhead                                        1
+PS1      OWN_MPX53GP    OWN_MPX53GP            MPX53                      OWN_MXP53GP                                    1
+Q1       16MHz          CRYSTALHC49U70         HC49U70                    adafruit                                       1
+Q2       IRF540         IRF540                 TO220                      transistor-fet                                 1
+Q3       IRF540         IRF540                 TO220                      transistor-fet                                 1
+Q4       IRF540         IRF540                 TO220                      transistor-fet                                 1
+R1       10k            R-EU_0204/7            0204/7                     rcl                                            1
+R4       100k           R-EU_0204/7            0204/7                     rcl                                            1
+R5       100k           R-EU_0204/7            0204/7                     rcl                                            1
+R6       100k           R-EU_0204/7            0204/7                     rcl                                            1
+R7       100k           R-EU_0204/7            0204/7                     rcl                                            1
+R8       1Meg           R-EU_0204/7            0204/7                     rcl                                            1
+R9       22k            R-EU_0204/7            0204/7                     rcl                                            1
+R10      220k           R-EU_0204/7            0204/7                     rcl                                            1
+R11      100k           R-EU_0204/7            0204/7                     rcl                                            1
+R12      1.5k           R-EU_0204/7            0204/7                     rcl                                            1
+R13      220k           R-EU_0204/7            0204/7                     rcl                                            1
+R14      100k           R-EU_0204/7            0204/7                     rcl                                            1
+R15      100k           R-EU_0204/7            0204/7                     rcl                                            1
+R16      1.5Meg         R-EU_0204/7            0204/7                     rcl                                            1
+R17      1Meg           R-EU_0204/7            0204/7                     rcl                                            1
+R18      100k           R-EU_0204/7            0204/7                     rcl                                            1
+R19      10k            R-EU_0204/7            0204/7                     rcl                                            1
+SERIAL                  PINHD-1X3              1X03                       pinhead                                        1
+START                   PINHD-1X2              1X02                       pinhead                                        1
+U$1      POLOLU_CP2104  POLOLU_CP2104          POLOLUCP2104               POLOLU_CP2104                                  1
+U1       MCP6024        LMV824                 DIL14                      op-amp                                         1
+U2       LMC6484        LMV824                 DIL14                      op-amp                                         1
+X1       VALVE2         JST-XH-02-PIN-LONG-PAD JST-XH-02-PACKAGE-LONG-PAD Rembrandt Electronics - JST XH Connectors v1-0 1
+X3       VALVE1         JST-XH-02-PIN-LONG-PAD JST-XH-02-PACKAGE-LONG-PAD Rembrandt Electronics - JST XH Connectors v1-0 1
+X4       PUMP           JST-XH-02-PIN-LONG-PAD JST-XH-02-PACKAGE-LONG-PAD Rembrandt Electronics - JST XH Connectors v1-0 1
+XA1      5V             B3P-VH(LF)(SN)         JST_B3P-VH(LF)(SN)         B3P-VH_LF__SN_                                 1
+XA2      3.3V           B2P-VH(LF)(SN)         JST_B2P-VH(LF)(SN)         B2P-VH_LF__SN_                                 1

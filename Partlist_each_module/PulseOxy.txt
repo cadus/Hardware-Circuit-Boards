@@ -1,0 +1,99 @@
+Partlist
+
+Exported from Pulsoxy.sch at 01.03.2019 15:23
+
+EAGLE Version 9.3.1 Copyright (c) 1988-2019 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value           Device                 Package                    Library                                        Sheet
+
+ATTINY   ATTINY85        ATTINY85               DIL08                      ATTINY85                                       1
+C1       2,2pF           C-EU025-024X044        C025-024X044               rcl                                            1
+C2       150pF           C-EU025-024X044        C025-024X044               rcl                                            1
+C3       2,2pF           C-EU025-024X044        C025-024X044               rcl                                            1
+C4       22nF            C-EU025-024X044        C025-024X044               rcl                                            1
+C5       22nF            C-EU025-024X044        C025-024X044               rcl                                            1
+C6       4,7µF           CPOL-EUE2-5            E2-5                       rcl                                            1
+C7       4,7µF           CPOL-EUE2-5            E2-5                       rcl                                            1
+C8       47nF            C-EU025-024X044        C025-024X044               rcl                                            1
+C9       47nF            C-EU025-024X044        C025-024X044               rcl                                            1
+C10      100nF           C-EU025-024X044        C025-024X044               rcl                                            1
+C11      100nF           C-EU025-024X044        C025-024X044               rcl                                            1
+C12      1µF             C-EU150-064X183        C150-064X183               rcl                                            1
+C13      1µF             C-EU150-064X183        C150-064X183               rcl                                            1
+C14      100nF           C-EU025-024X044        C025-024X044               rcl                                            1
+C15      100nF           C-EU025-024X044        C025-024X044               rcl                                            1
+C16      22pF            C-EU025-024X044        C025-024X044               rcl                                            1
+C17      22pF            C-EU025-024X044        C025-024X044               rcl                                            1
+C18      100nF           C-EU025-024X044        C025-024X044               rcl                                            1
+C20      47µF            CPOL-EUE2,5-6E         E2,5-6E                    rcl                                            1
+C21      47µF            CPOL-EUE2,5-6E         E2,5-6E                    rcl                                            1
+C22      47µF            CPOL-EUE2,5-6E         E2,5-6E                    rcl                                            1
+C23      10nF            C-EU025-024X044        C025-024X044               rcl                                            1
+C24      10nF            C-EU025-024X044        C025-024X044               rcl                                            1
+C25      470pF           C-EU025-024X044        C025-024X044               rcl                                            1
+C26      47µF            CPOL-EUE2,5-6E         E2,5-6E                    rcl                                            1
+C27      470pF           C-EU025-024X044        C025-024X044               rcl                                            1
+D1       1N5819          SCHOTTKY-DIODEF126Z12  F126Z12                    diode                                          1
+D2       1N5819          SCHOTTKY-DIODEF126Z12  F126Z12                    diode                                          1
+D3       1N5819          SCHOTTKY-DIODEF126Z12  F126Z12                    diode                                          1
+D4       1N5819          SCHOTTKY-DIODEF126Z12  F126Z12                    diode                                          1
+D5       1N4004          1N4004                 DO41-10                    diode                                          1
+IC1      OWN_CD4052B_MUX OWN_CD4052B_MUX        DIL16                      OWN_CD4052B_MUX                                1
+IC2      ATMEGA328-P     ATMEGA168-20P          DIL28-3                    adafruit                                       1
+JP1      ICSP            PINHD-2X3              2X03                       pinhead                                        1
+Q1       16MHz           CRYSTALHC49U70         HC49U70                    adafruit                                       1
+R1       10k             R-EU_0204/7            0204/7                     rcl                                            1
+R2       10k             R-EU_0204/7            0204/7                     rcl                                            1
+R3       100             R-EU_0204/7            0204/7                     rcl                                            1
+R4       68              R-EU_0204/7            0204/7                     rcl                                            1
+R5       4,7k            R-EU_0204/7            0204/7                     rcl                                            1
+R6       4,7k            R-EU_0204/7            0204/7                     rcl                                            1
+R7       1Meg            R-EU_0204/7            0204/7                     rcl                                            1
+R8       100k            R-EU_0204/7            0204/7                     rcl                                            1
+R9       1Meg            R-EU_0204/7            0204/7                     rcl                                            1
+R10      100k            R-EU_0204/7            0204/7                     rcl                                            1
+R11      1Meg            R-EU_0204/7            0204/7                     rcl                                            1
+R12      100k            R-EU_0204/7            0204/7                     rcl                                            1
+R13      100k            R-EU_0204/7            0204/7                     rcl                                            1
+R14      220k            R-EU_0204/7            0204/7                     rcl                                            1
+R15      220k            R-EU_0204/7            0204/7                     rcl                                            1
+R16      1Meg            R-EU_0204/7            0204/7                     rcl                                            1
+R17      1Meg            R-EU_0204/7            0204/7                     rcl                                            1
+R18      1k              R-EU_0204/7            0204/7                     rcl                                            1
+R19      1k              R-EU_0204/7            0204/7                     rcl                                            1
+R20      10k             R-EU_0204/7            0204/7                     rcl                                            1
+R21      10k             R-EU_0204/7            0204/7                     rcl                                            1
+R22      1Meg            R-EU_0204/7            0204/7                     rcl                                            1
+R23      1Meg            R-EU_0204/7            0204/7                     rcl                                            1
+R24      100k            R-EU_0204/7            0204/7                     rcl                                            1
+R25      1Meg            R-EU_0204/7            0204/7                     rcl                                            1
+R26      1Meg            R-EU_0204/7            0204/7                     rcl                                            1
+R27      100k            R-EU_0204/7            0204/7                     rcl                                            1
+R28      10k             R-EU_0204/7            0204/7                     rcl                                            1
+R29      10k             R-EU_0204/7            0204/7                     rcl                                            1
+R30      10k             R-EU_0204/7            0204/7                     rcl                                            1
+R31      10k             R-EU_0204/7            0204/7                     rcl                                            1
+R32      10k             R-EU_0204/7            0204/7                     rcl                                            1
+R35      180k            R-EU_0204/7            0204/7                     rcl                                            1
+R36      1k              R-EU_0204/7            0204/7                     rcl                                            1
+R37      1k              R-EU_0204/7            0204/7                     rcl                                            1
+R38      1k              R-EU_0204/7            0204/7                     rcl                                            1
+R39      1k              R-EU_0204/7            0204/7                     rcl                                            1
+SERIAL                   PINHD-1X3              1X03                       pinhead                                        1
+T1       BC547           BC547                  TO92                       transistor                                     1
+T2       BC547           BC547                  TO92                       transistor                                     1
+T3       BC547           BC547                  TO92                       transistor                                     1
+T4       BC547           BC547                  TO92                       transistor                                     1
+U$1      X9C104P         X9C104P                DIL08                      X9C104P                                        1
+U$2      X9C104P         X9C104P                DIL08                      X9C104P                                        1
+U$3      POLOLU_CP2104   POLOLU_CP2104          POLOLUCP2104               POLOLU_CP2104                                  1
+U2       MCP6024         LMV824                 DIL14                      op-amp                                         1
+U3       LMC6484         LMV824                 DIL14                      op-amp                                         1
+U4       MCP6024         LMV824                 DIL14                      op-amp                                         1
+X1       LED_IR/R        JST-XH-02-PIN-LONG-PAD JST-XH-02-PACKAGE-LONG-PAD Rembrandt Electronics - JST XH Connectors v1-0 1
+X2       PD              JST-XH-02-PIN-LONG-PAD JST-XH-02-PACKAGE-LONG-PAD Rembrandt Electronics - JST XH Connectors v1-0 1
+X4       PPG_AC          JST-XH-02-PIN-LONG-PAD JST-XH-02-PACKAGE-LONG-PAD Rembrandt Electronics - JST XH Connectors v1-0 1
+X5       PPG_DC          JST-XH-02-PIN-LONG-PAD JST-XH-02-PACKAGE-LONG-PAD Rembrandt Electronics - JST XH Connectors v1-0 1
+XA1      B3P-VH(LF)(SN)  B3P-VH(LF)(SN)         JST_B3P-VH(LF)(SN)         B3P-VH_LF__SN_                                 1

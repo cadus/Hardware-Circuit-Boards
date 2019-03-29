@@ -1,0 +1,26 @@
+Partlist
+
+Exported from Spannungsversorgung.sch at 01.03.2019 15:23
+
+EAGLE Version 9.3.1 Copyright (c) 1988-2019 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value          Device         Package            Library        Sheet
+
+C1       10µ            CPOL-EUE2.5-6  E2,5-6             rcl            1
+C2       10µ            CPOL-EUE2.5-6  E2,5-6             rcl            1
+C3       0.1µ           C2,5-3         C2.5-3             capacitor-wima 1
+C4       0.1µ           C2,5-3         C2.5-3             capacitor-wima 1
+IC1      788TV          788TV          TO220V             linear         1
+IC2      788TV          788TV          TO220V             linear         1
+LED1     +3V            TLLG4400       LED3MM             led            1
+LED2     +5V            TLLG4400       LED3MM             led            1
+LED3     -5V            TLLG4400       LED3MM             led            1
+R1       220            R-EU_0207/7    0207/7             resistor       1
+R2       1k             R-EU_0207/7    0207/7             resistor       1
+R3       1k             R-EU_0207/7    0207/7             resistor       1
+XA1      +5V in         B2P-VH(LF)(SN) JST_B2P-VH(LF)(SN) B2P-VH_LF__SN_ 1
+XA2       +5V in        B2P-VH(LF)(SN) JST_B2P-VH(LF)(SN) B2P-VH_LF__SN_ 1
+XA3      +3V out        B2P-VH(LF)(SN) JST_B2P-VH(LF)(SN) B2P-VH_LF__SN_ 1
+XA4      +-5V out       B3P-VH(LF)(SN) JST_B3P-VH(LF)(SN) B3P-VH_LF__SN_ 1

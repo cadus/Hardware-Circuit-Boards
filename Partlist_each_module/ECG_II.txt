@@ -1,0 +1,79 @@
+Partlist
+
+Exported from EKG_Modul_II.sch at 01.03.2019 15:21
+
+EAGLE Version 9.3.1 Copyright (c) 1988-2019 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value           Device                 Package                    Library                                        Sheet
+
+C1       10p             C2.5/2                 C2.5-2                     capacitor-wima                                 1
+C2       2p2             C2.5/2                 C2.5-2                     capacitor-wima                                 1
+C3       2p2             C2.5/2                 C2.5-2                     capacitor-wima                                 1
+C4       220n            C2.5/2                 C2.5-2                     capacitor-wima                                 1
+C5       220n            C2.5/2                 C2.5-2                     capacitor-wima                                 1
+C6       0.47u           C15/5                  C15B5                      capacitor-wima                                 1
+C7       0.47u           C15/5                  C15B5                      capacitor-wima                                 1
+C8       4,7n            C2.5/2                 C2.5-2                     capacitor-wima                                 1
+C9       1,5n            C2.5/2                 C2.5-2                     capacitor-wima                                 1
+C10      100p            C2.5/2                 C2.5-2                     capacitor-wima                                 1
+C11      1,5n            C2.5/2                 C2.5-2                     capacitor-wima                                 1
+C12      1,5n            C2.5/2                 C2.5-2                     capacitor-wima                                 1
+C13      150p            C2.5/2                 C2.5-2                     capacitor-wima                                 1
+C14      1.5n            C2.5/2                 C2.5-2                     capacitor-wima                                 1
+C15      1,5n            C2.5/2                 C2.5-2                     capacitor-wima                                 1
+C16      150p            C2.5/2                 C2.5-2                     capacitor-wima                                 1
+C17      470p            C2.5/2                 C2.5-2                     capacitor-wima                                 1
+C18      2,2n            C2.5/2                 C2.5-2                     capacitor-wima                                 1
+C19      680p            C2.5/2                 C2.5-2                     capacitor-wima                                 1
+C20      4,7n            C2.5/2                 C2.5-2                     capacitor-wima                                 1
+C21      2,2n            C2.5/2                 C2.5-2                     capacitor-wima                                 1
+C22      470p            C2.5/2                 C2.5-2                     capacitor-wima                                 1
+C23      100n            C2.5/2                 C2.5-2                     capacitor-wima                                 1
+C24      15n             C2.5/2                 C2.5-2                     capacitor-wima                                 1
+C25      33n             C2.5/2                 C2.5-2                     capacitor-wima                                 1
+C26      15n             C2.5/2                 C2.5-2                     capacitor-wima                                 1
+C27      68n             C2.5/2                 C2.5-2                     capacitor-wima                                 1
+C28      68n             C2.5/2                 C2.5-2                     capacitor-wima                                 1
+C29      68n             C2.5/2                 C2.5-2                     capacitor-wima                                 1
+D1                       SCHOTTKY-DIODEDO35-7   DO35-7                     adafruit                                       1
+D2       1N4148          1N4148DO35-7           DO35-7                     diode                                          1
+IC1      INA126P         INA126P                DIP254P762X508-8           INA126P                                        1
+IC2      LM6484          QUAD_OPAMPP            DIL14                      adafruit                                       1
+IC3      LM6484          QUAD_OPAMPP            DIL14                      adafruit                                       1
+IC4      LM6484          QUAD_OPAMPP            DIL14                      adafruit                                       1
+R1       10k             R-EU_0207/7            0207/7                     rcl                                            1
+R2       10k             R-EU_0207/7            0207/7                     rcl                                            1
+R3       330             R-EU_0207/7            0207/7                     rcl                                            1
+R4       1M              R-EU_0207/7            0207/7                     rcl                                            1
+R5       1M              R-EU_0207/7            0207/7                     rcl                                            1
+R6       1M              R-EU_0207/7            0207/7                     rcl                                            1
+R7       500k            R-EU_0207/7            0207/7                     rcl                                            1
+R8       27k             R-EU_0207/7            0207/7                     rcl                                            1
+R9       27k             R-EU_0207/7            0207/7                     rcl                                            1
+R10      1M              R-EU_0207/7            0207/7                     rcl                                            1
+R11      1M              R-EU_0207/7            0207/7                     rcl                                            1
+R12      500k            R-EU_0207/7            0207/7                     rcl                                            1
+R13      27k             R-EU_0207/7            0207/7                     rcl                                            1
+R14      27k             R-EU_0207/7            0207/7                     rcl                                            1
+R15      8.2k            R-EU_0207/7            0207/7                     rcl                                            1
+R16      33k             R-EU_0207/7            0207/7                     rcl                                            1
+R17      22k             R-EU_0207/7            0207/7                     rcl                                            1
+R18      47k             R-EU_0207/7            0207/7                     rcl                                            1
+R19      47k             R-EU_0207/7            0207/7                     rcl                                            1
+R20      47k             R-EU_0207/7            0207/7                     rcl                                            1
+R21      10k             R-EU_0207/7            0207/7                     rcl                                            1
+R22      10k             R-EU_0207/7            0207/7                     rcl                                            1
+R23      10k             R-EU_0207/7            0207/7                     rcl                                            1
+R24      10k             R-EU_0207/7            0207/7                     rcl                                            1
+R25      10k             R-EU_0207/7            0207/7                     rcl                                            1
+R26      1M              R-EU_0207/7            0207/7                     rcl                                            1
+R27      1M              R-EU_0207/7            0207/7                     rcl                                            1
+R28      1M              R-EU_0207/7            0207/7                     rcl                                            1
+R29      100k            R-EU_0207/7            0207/7                     rcl                                            1
+R30      390k            R-EU_0207/7            0207/7                     rcl                                            1
+X1       5V_I            JST-XH-03-PIN-LONG-PAD JST-XH-03-PACKAGE-LONG-PAD Rembrandt Electronics - JST XH Connectors v1-0 1
+X2       II_in           JST-XH-02-PIN-LONG-PAD JST-XH-02-PACKAGE-LONG-PAD Rembrandt Electronics - JST XH Connectors v1-0 1
+X3       A_II_out        JST-XH-02-PIN-LONG-PAD JST-XH-02-PACKAGE-LONG-PAD Rembrandt Electronics - JST XH Connectors v1-0 1
+X4       Pulse_Detection JST-XH-02-PIN-LONG-PAD JST-XH-02-PACKAGE-LONG-PAD Rembrandt Electronics - JST XH Connectors v1-0 1

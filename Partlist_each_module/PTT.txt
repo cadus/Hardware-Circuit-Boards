@@ -1,0 +1,33 @@
+Partlist
+
+Exported from PTT.brd at 3/5/2019 2:48 PM
+
+EAGLE Version 9.3.1 Copyright (c) 1988-2019 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value          Package            Library        Position (mil)        Orientation
+
+C1       22pF           C025-024X044       rcl            (1725 1475)           R270
+C2       22pF           C025-024X044       rcl            (2325 1475)           R270
+C3       22pF           C025-024X044       rcl            (1425 1475)           R270
+C4       100nF          C025-024X044       rcl            (1525 2225)           R0
+C5       47µF           E2,5-6E            rcl            (300 450)             R90
+C6       47µF           E2,5-6E            rcl            (300 700)             R90
+C7       22pF           C025-024X044       rcl            (825 1475)            R270
+C8       100nF          C025-024X044       rcl            (1525 725)            R180
+D1       1N4004         DO41-10            diode          (1175 2225)           R180
+D2       1N4004         DO41-10            diode          (1150 725)            R0
+IC1      ATMEGA328-P 1  DIL28-3            adafruit       (1650 1875)           R0
+IC2      ATMEGA328-P 2  DIL28-3            adafruit       (1650 1100)           R180
+INPUT    INPUT          JST_B2P-VH(LF)(SN) B2P-VH_LF__SN_ (200 1725)            R90
+JP-1     ICSP 1         2X03               pinhead        (2975 1850)           R90
+JP-2     ISCP 2         2X03               pinhead        (2975 1050)           R90
+Q1       16MHz          HC49U70            adafruit       (2025 1475)           R180
+Q2       16MHz          HC49U70            adafruit       (1125 1475)           R0
+R1       10k            0204/7             rcl            (1825 2225)           R180
+R2       10k            0204/7             rcl            (1825 725)            R180
+SERIAL-1                1X03               pinhead        (2650 1850)           R90
+SERIAL-2                1X03               pinhead        (2650 1050)           R90
+U$2      POLOLU_CP2104  POLOLUCP2104       POLOLU_CP2104  (4300 1750)           R270
+XA1      5V             JST_B3P-VH(LF)(SN) B3P-VH_LF__SN_ (200 1225)            R90

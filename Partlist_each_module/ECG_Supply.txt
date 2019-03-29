@@ -1,0 +1,28 @@
+Partlist
+
+Exported from EKG_Modul_Versorgung.sch at 01.03.2019 15:22
+
+EAGLE Version 9.3.1 Copyright (c) 1988-2019 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value          Device                 Package                    Library                                        Sheet
+
+D1                      DIODEDO-1N4148         DO-1N4148                  adafruit                                       1
+D2                      DIODEDO-1N4148         DO-1N4148                  adafruit                                       1
+D3                      DIODEDO-1N4148         DO-1N4148                  adafruit                                       1
+D4                      DIODEDO-1N4148         DO-1N4148                  adafruit                                       1
+D5                      DIODEDO-1N4148         DO-1N4148                  adafruit                                       1
+D6                      DIODEDO-1N4148         DO-1N4148                  adafruit                                       1
+ECG      ECG RLF        JST-XH-03-PIN-LONG-PAD JST-XH-03-PACKAGE-LONG-PAD Rembrandt Electronics - JST XH Connectors v1-0 1
+R1       100k           R-EU_0207/7            0207/7                     rcl                                            1
+R2       100k           R-EU_0207/7            0207/7                     rcl                                            1
+R3       100k           R-EU_0207/7            0207/7                     rcl                                            1
+X1       5V             B3P-VH(LF)(SN)         JST_B3P-VH(LF)(SN)         B3P-VH_LF__SN_                                 1
+X2       U I out        JST-XH-03-PIN-LONG-PAD JST-XH-03-PACKAGE-LONG-PAD Rembrandt Electronics - JST XH Connectors v1-0 1
+X3       U II out       JST-XH-03-PIN-LONG-PAD JST-XH-03-PACKAGE-LONG-PAD Rembrandt Electronics - JST XH Connectors v1-0 1
+X4       U III out      JST-XH-03-PIN-LONG-PAD JST-XH-03-PACKAGE-LONG-PAD Rembrandt Electronics - JST XH Connectors v1-0 1
+X5       I out          JST-XH-02-PIN-LONG-PAD JST-XH-02-PACKAGE-LONG-PAD Rembrandt Electronics - JST XH Connectors v1-0 1
+X6       II out         JST-XH-02-PIN-LONG-PAD JST-XH-02-PACKAGE-LONG-PAD Rembrandt Electronics - JST XH Connectors v1-0 1
+X7       III out        JST-XH-02-PIN-LONG-PAD JST-XH-02-PACKAGE-LONG-PAD Rembrandt Electronics - JST XH Connectors v1-0 1
+X8       U_Pulse out    JST-XH-03-PIN-LONG-PAD JST-XH-03-PACKAGE-LONG-PAD Rembrandt Electronics - JST XH Connectors v1-0 1
