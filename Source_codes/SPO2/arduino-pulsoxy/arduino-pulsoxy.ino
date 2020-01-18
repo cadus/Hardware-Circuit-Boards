@@ -16,6 +16,8 @@
 #include <string.h>
 #include <avr/interrupt.h>
 #include <math.h>
+
+extern "C" {
 #include "ADC.h"
 #include "TC2_8b_2ms.h"
 #include "TC1_PWM_4kHz.h"
@@ -24,6 +26,7 @@
 #include "LEDControl.h"
 #include "AGC.h"
 #include "calculatingSPO2.h"
+}
 
 volatile uint32_t GainDelay = 0;									//Variable for timing the Gain
 volatile uint32_t *GainDelay_p = &GainDelay;
