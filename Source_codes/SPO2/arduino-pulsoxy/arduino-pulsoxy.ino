@@ -35,7 +35,7 @@ volatile uint32_t *EnvelopeBufferTime_p = &EnvelopeBufferTime;
 
 uint8_t FingerDetection = 0;										//Variable set to 1 if a finger is detected and 0 if not					
 
-volatile uint8_t BufferTiemer = 0;									//Variable for setting the time intervals in which values for the SpO2 calculation are written to the buffer
+volatile uint8_t BufferTimer = 0;									//Variable for setting the time intervals in which values for the SpO2 calculation are written to the buffer
 
 volatile int16_t aACIRBuffer[125];									//Buffer for the IR-Values
 volatile int16_t *aACIRBuffer_p = &aACIRBuffer[0];
@@ -142,11 +142,11 @@ ISR(TIMER2_COMPA_vect)
 	UpdateSignals();												//Detection of the required measuring signals
 	GainDelay+=2;													//Counting the time for the Gain timing
 	EnvelopeBufferTime+=2;											//Counting the time for the envelope detection timing
-	BufferTiemer++;													//Counting the ISR calls to write a data point onto the buffer every 20ms
+	BufferTimer++;													//Counting the ISR calls to write a data point onto the buffer every 20ms
 	
-	if(BufferTiemer == 10)											//Write a data point onto the buffer every 20ms
+	if(BufferTimer == 10)											//Write a data point onto the buffer every 20ms
 	{
-		BufferTiemer = 0;
+		BufferTimer = 0;
 	
 		if ((calculateSPO2 == 0))									//The buffer is only written as long as no new SpO2 value is calculated
 		{
