@@ -15,10 +15,10 @@ extern volatile int32_t PPGIRDCsig;
 extern volatile int32_t PPGRDCsig;
 extern volatile int32_t PPGIRACDCsig;
 extern volatile int32_t PPGRACDCsig;
-extern volatile uint16_t IRAC;
-extern volatile uint16_t RAC;
-extern volatile uint16_t IRDC;
-extern volatile uint16_t RDC;
+extern volatile int16_t IRAC;
+extern volatile int16_t RAC;
+extern volatile int16_t IRDC;
+extern volatile int16_t RDC;
 
 
 
