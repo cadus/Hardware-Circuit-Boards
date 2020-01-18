@@ -47,7 +47,7 @@ volatile uint8_t calculateSPO2 = 0;									//Variable is set to 1 when the buff
 
 uint8_t SPO2 = 0;													//Variable for the calculated SpO2-value
 
-int main(void)
+void setup()
 {
 	cli();															//Disable all Interrupts
 	
@@ -61,9 +61,9 @@ int main(void)
 	init_AGC(GainDelay_p);											//Initializes the Auto Gain Control
 	
 	DDRD |= (1 << PD2);												//PIN PD2 Output This Pin is set to HIGH if the LED Brightness is getting adjusted
-	
-    while (1) 
-    {
+}
+
+void loop() {
 		FingerDetection = FingerIn_Out();							//Testing if the finger is in the Fingerclip or not
 		
 		if (FingerDetection==0)										//If no finger was detected, the measurement is reset
@@ -130,9 +130,6 @@ int main(void)
 			}
 			
 		}
-		
-
-    }
 }
 
 
@@ -162,4 +159,3 @@ ISR(TIMER2_COMPA_vect)
 		}
 	}
 }
-
