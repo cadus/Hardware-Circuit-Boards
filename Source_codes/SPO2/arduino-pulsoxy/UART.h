@@ -3,7 +3,7 @@
  *
  * Created: 14.03.2018 12:21:33
  *  Author: Moritz Klimt
- */ 
+ */
 
 
 #ifndef UART_H_

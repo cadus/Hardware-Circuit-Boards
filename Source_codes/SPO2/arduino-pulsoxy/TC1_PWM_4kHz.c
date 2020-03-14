@@ -3,7 +3,7 @@
  *
  * Created: 13.03.2018 11:53:10
  *  Author: Moritz Klimt
- */ 
+ */
 
 #include <avr/io.h>
 
@@ -22,5 +22,5 @@ void init_TC1_PWM_4kHz()
 	ICR1 = 4095;						//Set The Input Capture Register to 4095 for a 12-Bit resolution of the PWM
 	OCR1A = 675;						//Set PWM-Duty-Cycle to 16%
 	OCR1B = 675;						//Set PWM-Duty-Cycle to 16%
-	
+
 }

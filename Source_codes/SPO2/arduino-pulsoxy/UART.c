@@ -3,7 +3,7 @@
  *
  * Created: 14.03.2018 12:21:11
  *  Author: Moritz Klimt
- */ 
+ */
 
 #ifndef F_CPU
 #define F_CPU 16000000UL
@@ -42,4 +42,3 @@ void SendData(int16_t data)
 	while ((UCSR0A & (1 << UDRE0)) == 0);
 	UDR0 = 0x0A;
 }
-

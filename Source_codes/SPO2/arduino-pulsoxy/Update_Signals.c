@@ -3,14 +3,14 @@
  *
  * Created: 12.03.2018 17:28:43
  *  Author: Moritz Klimt
- */ 
+ */
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h>
 #include "ADC.h"
 
 /*
- * Variables for updating the AC and DC-PPG Signals 
+ * Variables for updating the AC and DC-PPG Signals
  */
 
 #define PPGIRDC 0

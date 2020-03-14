@@ -3,7 +3,7 @@
  *
  * Created: 07.03.2018 15:49:20
  * Author : Moritz Klimt
- */ 
+ */
 
 #ifndef F_CPU
 #define F_CPU 16000000UL
@@ -33,7 +33,7 @@ volatile uint32_t *GainDelay_p = &GainDelay;
 volatile uint32_t EnvelopeBufferTime = 0;							//Variable for timing the Envelope detection.
 volatile uint32_t *EnvelopeBufferTime_p = &EnvelopeBufferTime;
 
-uint8_t FingerDetection = 0;										//Variable set to 1 if a finger is detected and 0 if not					
+uint8_t FingerDetection = 0;										//Variable set to 1 if a finger is detected and 0 if not
 
 volatile uint8_t BufferTimer = 0;									//Variable for setting the time intervals in which values for the SpO2 calculation are written to the buffer
 
@@ -50,28 +50,28 @@ uint8_t SPO2 = 0;													//Variable for the calculated SpO2-value
 void setup()
 {
 	cli();															//Disable all Interrupts
-	
+
     init_ADC();														//Initializes the ADC
 	init_TC2_8b_2ms();												//Initializes the TC2 to trigger a timer interrupt every 2ms
 	init_TC1_PWM_4kHz();											//Initializes the TC1 to generate a PWM with 12bit resolution and 4kHz, to control the red/IR LED brightness
 	init_UART_115200_8N1();											//Initializes the serial communication via UART, with a baud rate of 115200
-	
+
 	sei();															//Enable all Interrupts
-	
+
 	init_AGC(GainDelay_p);											//Initializes the Auto Gain Control
-	
+
 	DDRD |= (1 << PD2);												//PIN PD2 Output This Pin is set to HIGH if the LED Brightness is getting adjusted
 }
 
 void loop() {
 		FingerDetection = FingerIn_Out();							//Testing if the finger is in the Fingerclip or not
-		
+
 		if (FingerDetection==0)										//If no finger was detected, the measurement is reset
 		{
 			SendData(0);											//Send ERROR-Code 404 "No Finger Detected"
 			PORTD |= (1 << PD2);									//Setting PIN PD2 to HIGH
 			BufferDataPoint = 0;									//Reset the Buffer for the SpO2 calculation
-			calculateSPO2 = 0;										
+			calculateSPO2 = 0;
 			for (uint8_t i = 0; i<10 ; i++)							//Reset the SpO2-Value and RAGC-Value Buffer
 			{
 				*(SPO2Values_p+i) = 0;
@@ -87,11 +87,11 @@ void loop() {
 			{
 			}
 		}
-		
+
 		if (FingerDetection==1)										//If a finger was detected, the SpO2 routine starts
 		{
 			PORTD &= ~(1 << PD2);									//Setting PIN PD2 to LOW
-			
+
 			//Control of the LED brightness
 			if ((PPGIRDCsig >= 800)||(PPGRDCsig >= 800))			//If the LEDs are too bright, they are turned down
 			{
@@ -117,18 +117,18 @@ void loop() {
 				}
 				RAGCDataPoints = 0;
 			}
-			
+
 			//Adjusting the AC-Gain
 				AGC(GainDelay_p,EnvelopeBufferTime_p);
-			
-			//Calculating SPO2			
+
+			//Calculating SPO2
 			if ((calculateSPO2==1)&&(RAGCDataPoints > 1))
 			{
 				SPO2 = calculatingSPO2(aACIRBuffer_p,aACRBuffer_p,((uint16_t)(sizeof(aACIRBuffer)/sizeof(aACIRBuffer[0]))));
 				SendData(SPO2);										//Transmission of the current SpO2 value
 				calculateSPO2 = 0;
 			}
-			
+
 		}
 }
 
@@ -140,17 +140,17 @@ ISR(TIMER2_COMPA_vect)
 	GainDelay+=2;													//Counting the time for the Gain timing
 	EnvelopeBufferTime+=2;											//Counting the time for the envelope detection timing
 	BufferTimer++;													//Counting the ISR calls to write a data point onto the buffer every 20ms
-	
+
 	if(BufferTimer == 10)											//Write a data point onto the buffer every 20ms
 	{
 		BufferTimer = 0;
-	
+
 		if ((calculateSPO2 == 0))									//The buffer is only written as long as no new SpO2 value is calculated
 		{
 			*(aACIRBuffer_p+BufferDataPoint) = (int16_t)((PPGIRsig*10/PPGIRDCsig));
 			*(aACRBuffer_p+BufferDataPoint) = (int16_t)((PPGRsig*10/PPGRDCsig));
 			BufferDataPoint++;
-		
+
 			if(BufferDataPoint == ((uint16_t)(sizeof(aACIRBuffer)/sizeof(aACIRBuffer[0]))))		//When the buffer is full, the SpO2 value can be calculated
 			{
 				BufferDataPoint = 0;

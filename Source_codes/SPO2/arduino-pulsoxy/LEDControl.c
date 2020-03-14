@@ -3,7 +3,7 @@
  *
  * Created: 04.04.2018 11:49:26
  *  Author: Moritz Klimt
- */ 
+ */
 
 #include <avr/io.h>
 #include <stdint.h>
@@ -28,9 +28,9 @@ int FingerIn_Out()
 
 /*
  *  LEDBrightnessUP(); is a function to increase the LED brightness.
- *  The address of the GainDelay variable is passed to it via a pointer 
+ *  The address of the GainDelay variable is passed to it via a pointer
  *  in order to delay the control slightly via the value stored at this address.
- *  If the value of the DC signals is below 600 (approx. 3V), 
+ *  If the value of the DC signals is below 600 (approx. 3V),
  *  the PWM duty cycle is increased until the DC signal is at 3V or the PWM duty cycle of 100% is reached.
  */
 
@@ -42,12 +42,12 @@ void LEDBrightnessUP(uint32_t *Timing)
 			if (PPGRDCsig<500)
 			{
 				PWMR+=2;
-				*Timing = 0;				
+				*Timing = 0;
 			}
 			else
 			{
 				PWMR++;
-				*Timing = 0;				
+				*Timing = 0;
 			}
 		}
 		if(PWMR>=4094){
@@ -75,9 +75,9 @@ void LEDBrightnessUP(uint32_t *Timing)
 
 /*
  *  LEDBrightnessDOWN(); is a function to decrease the LED brightness.
- *  The address of the GainDelay variable is passed to it via a pointer 
+ *  The address of the GainDelay variable is passed to it via a pointer
  *  in order to delay the control slightly via the value stored at this address.
- *  If the value of the DC signals is above 600 (approx. 3V), 
+ *  If the value of the DC signals is above 600 (approx. 3V),
  *  the PWM duty cycle is decreased until the DC signal is at 3V or the PWM duty cycle of 6,5% is reached.
  */
 

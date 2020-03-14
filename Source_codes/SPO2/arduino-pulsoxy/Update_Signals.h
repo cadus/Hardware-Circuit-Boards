@@ -3,7 +3,7 @@
  *
  * Created: 12.03.2018 17:28:53
  *  Author: Moritz Klimt
- */ 
+ */
 
 
 #ifndef UPDATE_SIGNALS_H_

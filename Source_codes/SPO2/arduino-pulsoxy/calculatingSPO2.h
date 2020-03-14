@@ -3,7 +3,7 @@
  *
  * Created: 04.04.2018 20:05:12
  *  Author: Moritz Klimt
- */ 
+ */
 
 extern uint8_t SPO2DataPoints;
 extern int16_t *SPO2Values_p;

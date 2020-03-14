@@ -3,7 +3,7 @@
  *
  * Created: 04.04.2018 15:22:32
  *  Author: Moritz Klimt
- */ 
+ */
 
 extern uint8_t RAGC;
 extern uint8_t *RAGCValues_p;

@@ -3,7 +3,7 @@
  *
  * Created: 04.04.2018 15:22:19
  *  Author: Moritz Klimt
- */ 
+ */
 
 #include <avr/io.h>
 #include <stdint.h>
@@ -73,7 +73,7 @@ void AGC(volatile uint32_t *TimingGain, volatile uint32_t *TimingEnvelope)
 			  *TimingEnvelope = 0;
 		  }
 		  if((*TimingEnvelope) >= 200){
-			
+
 				if((PPGRACDCmax - PPGRACDCmin)>(PPGIRACDCmax - PPGIRACDCmin))
 				{
 					PPGpeakpeak = PPGRACDCmax - PPGRACDCmin;
@@ -82,20 +82,20 @@ void AGC(volatile uint32_t *TimingGain, volatile uint32_t *TimingEnvelope)
 				{
 					PPGpeakpeak = PPGIRACDCmax - PPGIRACDCmin;
 				}
-			  
+
 				newRAGC = ((400/(PPGpeakpeak)));
-			  
+
 				if(newRAGC>=100)
-				{ 
+				{
 					newRAGC = 100;
 				}
 				if(newRAGC<=1)
 				{
 					newRAGC = 1;
 				}
-			  
+
 				MeanRAGC = 0;
-			  
+
 				if (RAGCDataPoints < 10)
 				{
 					RAGCDataPoints++;
@@ -108,7 +108,7 @@ void AGC(volatile uint32_t *TimingGain, volatile uint32_t *TimingEnvelope)
 				RAGCValues[9] = newRAGC;
 				MeanRAGC += RAGCValues[9];
 				MeanRAGC = MeanRAGC/RAGCDataPoints;
-			  
+
 			    if(MeanRAGC > RAGC)
 				{
 					PORTB |= (1 << UD);
@@ -137,7 +137,7 @@ void AGC(volatile uint32_t *TimingGain, volatile uint32_t *TimingEnvelope)
 				PPGIRACDCmin = 1023;
 				PPGRACDCmax = -1023;
 				PPGRACDCmin = 1023;
-				
+
 		  }
 	  }
 }

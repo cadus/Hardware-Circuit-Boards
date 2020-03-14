@@ -3,7 +3,7 @@
  *
  * Created: 07.03.2018 17:15:33
  *  Author: Moritz Klimt
- */ 
+ */
 
 #include <avr/io.h>
 

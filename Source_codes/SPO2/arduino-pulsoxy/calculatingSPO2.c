@@ -3,7 +3,7 @@
  *
  * Created: 04.04.2018 20:04:46
  *  Author: Moritz Klimt
- */ 
+ */
 #include <stdint.h>
 #include <math.h>
 
